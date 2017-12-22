@@ -6,6 +6,7 @@ crawlertitle: Why and how this blog was created
 permalink: "/about/"
 summary: About this blog
 active: about
+lang: en
 ---
 
 # Totally cool new government homepage

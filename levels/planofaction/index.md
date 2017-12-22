@@ -1,13 +1,13 @@
 ---
-title: Handlingsplan
+title: Plan of action
 bg: owl.jpg
 layout: page
 crawlertitle: Handlingsplan
-permalink: "/nivaer/handlingsplan"
+permalink: "/levels/planofaction"
 summary: Handlingsplan
 active: planofaction
 exclude: true
-lang: sv
+lang: en
 ---
 
-## Handlingsplan ...
+## Plan of action ...

@@ -5,8 +5,9 @@
   <nav class="center-wrapper nav-main">
 
     <a class="blog-logo" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    {% assign pages=site.pages | where:"lang", page.lang %}
 
-    {% for my_page in site.pages %}
+    {% for my_page in pages %}
 			{% unless my_page.exclude %}
 	      {% if my_page.active %}
 	        <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
@@ -15,6 +16,12 @@
     {% endfor %}
 
     <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
+    {% assign lang_posts=site.posts | where:"active", page.active | sort: 'lang' %}
+    {% for post in lang_posts %} <a href="{{ post.url | prepend: site.baseurl }}" class="select-language">{{ post.lang }}</a> {% endfor %}
+
+
+    {% assign lang_pages=site.pages | where:"active", page.active | sort: 'lang' %}
+    {% for page in lang_pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="select-language">{{ page.lang }}</a> {% endfor %}
 
     <label for="menu-checkbox" class="toggle-button" data-open="☰" data-close="☰" onclick></label>
   </nav>

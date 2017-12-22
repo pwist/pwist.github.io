@@ -1,13 +1,13 @@
 ---
-title: Sjöns nivåer
+title: Sea level
 bg: owl.jpg
 layout: page
 crawlertitle: Sjöns nivåer
-permalink: "/nivaer/nivaer"
+permalink: "/levels/levels"
 summary: Sjöns nivåer
 active: levels
 exclude: true
-lang: sv
+lang: en
 ---
 
-## Sjöns nivåer ...
+## Sea level ...
