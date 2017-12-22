@@ -31,8 +31,6 @@ sass:
   sass_dir: assets/_sass
   style: compressed
 images: /assets/images
-plugins:
-  - jekyll-admin
 
 collections:
   fishes:
