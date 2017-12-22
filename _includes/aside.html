@@ -1,0 +1,41 @@
+{% if page.bg %}
+  <aside class="sidebar" role="note" style="background-image: url({{ site.images | relative_url }}/{{ page.bg }})">
+{% else %}
+  <aside class="sidebar" role="note" style="background-image: url({{ site.images | relative_url }}/bg.svg)">
+{% endif %}
+
+  <div class="cover">
+
+    <div class="cover-text">
+      <div class="heading">
+
+        {% if page.tags %}
+          {% for tag in page.tags %}
+            <a href="{{ site.baseurl }}/posts/#{{ tag | downcase }}">{{ tag | downcase }}</a>
+          {% endfor %}
+        {% else %}
+          {{ page.title }}
+        {% endif %}
+
+        {% assign top_level_permalink = page.permalink %}
+        {% for sub_page in site.pages %}
+         {% if sub_page.permalink != top_level_permalink and sub_page.permalink contains top_level_permalink %}
+          <div><a href="{{ site.url }}/{{ sub_page.permalink }} ">{{ sub_page.title }}</a></div>
+         {% endif %}
+        {% endfor %}
+
+      </div>
+
+
+      <p>
+        {% if page.summary %}
+          {{ page.summary }}
+        {% endif %}
+      </p>
+
+    </div>
+
+  </div>
+
+  <div id="switcher"></div>
+</aside>
