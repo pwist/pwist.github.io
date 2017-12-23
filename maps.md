@@ -4,7 +4,7 @@ bg: owl.jpg
 layout: page
 crawlertitle: Fiskelagens kartor
 permalink: "/maps/"
-summary: Fiskelagens kartor
+summary: Maps associated with the Fishery
 active: maps
 lang: en
 ---
