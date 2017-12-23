@@ -12,11 +12,12 @@ lang: sv
 {% for tag in site.tags %}
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
-
+  {% assign posts_lang = posts | where:"lang", page.lang %}
+  {% if posts_lang.size > 0 %}
   <h2 class="category-key" id="{{ t | downcase }}">{{ t | capitalize }}</h2>
 
   <ul class="year">
-    {% for post in posts %}
+    {% for post in posts_lang %}
       {% if post.tags contains t %}
         <li>
           {% if post.lastmod %}
@@ -30,5 +31,5 @@ lang: sv
       {% endif %}
     {% endfor %}
   </ul>
-
+  {% endif %}
 {% endfor %}

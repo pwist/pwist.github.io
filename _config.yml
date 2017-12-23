@@ -1,4 +1,4 @@
-title: Fish district of Northern Finland
+title: Fish district
 email: your-email@domain.com
 organization: Dept. of Fisheries
 contact_person: Jane Doe
@@ -36,4 +36,4 @@ images: /assets/images
 collections:
   fishes:
         output: true
-        permalink: /jekyll-themes/:path/
+        permalink: /fishes/:path/

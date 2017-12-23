@@ -10,4 +10,8 @@ lang: en
 ---
 
 # Maps of the Fishery
-Maps
+
+| Area  |  |
+| ------------- | ------------- |
+| Larsmo  | [Download]({{ site.baseurl }}{% link /assets/pdf/larsmo.pdf %})  |
+| Öja  | [Download]({{ site.baseurl }}{% link /assets/pdf/oja.pdf %})  |

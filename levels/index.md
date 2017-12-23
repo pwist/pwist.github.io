@@ -9,5 +9,5 @@ active: levelsindex
 lang: en
 ---
 
-[Sea level in the lake](nivaer)
-[Plan of action](handlingsplan)
+[Sea level in the lake](levels)
+[Plan of action](planofaction)

@@ -10,4 +10,8 @@ lang: sv
 ---
 
 # Fiskelagens kartor
-## Hmm!
+
+| Område  |  |
+| ------------- | ------------- |
+| Larsmo  | [Ladda ner]({{ site.baseurl }}{% link /assets/pdf/larsmo.pdf %})  |
+| Öja  | [Ladda ner]({{ site.baseurl }}{% link /assets/pdf/oja.pdf %})  |
