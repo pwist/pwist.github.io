@@ -15,3 +15,6 @@ lang: en
 | ------------- | ------------- |
 | Larsmo  | [Download]({{ site.baseurl }}{% link /assets/pdf/larsmo.pdf %})  |
 | Öja  | [Download]({{ site.baseurl }}{% link /assets/pdf/oja.pdf %})  |
+
+# To the map service
+[Link to service](http://www.maanmittauslaitos.fi/asioi-verkossa/karttapaikka)
