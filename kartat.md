@@ -1,21 +1,21 @@
 ---
-title: Kartor
+title: Kartat
 bg: owl.jpg
 layout: page
-crawlertitle: Fiskelagens kartor
-permalink: "/kartor/"
-summary: Fiskelagens kartor
-active: maps
-lang: sv
+crawlertitle: Kalavedeiden kartat
+permalink: "/kartat/"
+summary: Kalavedeiden kartat
+active: kartat
+lang: fi
 ---
 
-# Fiskelagens kartor
+# Kalavedeiden kartat
 
-| Område  |  |
+| Alue  |  |
 | ------------- | ------------- |
-| Larsmo  | [Ladda ner]({{ site.baseurl }}{% link /assets/pdf/larsmo.pdf %})  |
-| Öja  | [Ladda ner]({{ site.baseurl }}{% link /assets/pdf/oja.pdf %})  |
-| Kronoby  | [Ladda ner]({{ site.baseurl }}{% link /assets/pdf/oja.pdf %})  |
+| Luoto  | [Ladata]({{ site.baseurl }}{% link /assets/pdf/larsmo.pdf %})  |
+| Öja  | [Ladata]({{ site.baseurl }}{% link /assets/pdf/oja.pdf %})  |
+| Kruunupyy  | [Ladata]({{ site.baseurl }}{% link /assets/pdf/oja.pdf %})  |
 
-# Till karttjänsten
-[Länk till sidan](http://www.maanmittauslaitos.fi/asioi-verkossa/karttapaikka)
+# Karttapalveluun
+[Karttapalvelun kotisivu](http://www.maanmittauslaitos.fi/asioi-verkossa/karttapaikka)
