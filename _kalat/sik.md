@@ -2,7 +2,7 @@
 title: Siika
 layout: page
 description: Isompi kala
-url: /fiskar/siika
+url: /kalat/siika
 ---
 
 # Siika
