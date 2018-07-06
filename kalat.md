@@ -5,7 +5,7 @@ layout: page
 crawlertitle: Why and how this blog was created
 permalink: "/kalat/"
 summary: Eri kalalajit
-active: kalat
+active: fishes
 lang: fi
 ---
 
