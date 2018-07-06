@@ -14,4 +14,4 @@ lang: fi
 | Alue  |  |
 | ------------- | ------------- |
 | Luoto  | [Ladata](https://www.google.com)  |
-| Öja  | [Ladata](https://www.google.com %})  |
+| Öja  | [Ladata](https://www.google.com)  |
