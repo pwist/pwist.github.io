@@ -37,3 +37,6 @@ collections:
   fishes:
         output: true
         permalink: /fishes/:path/
+  fiskar:
+        output: true
+        permalink: /fiskar/:path/

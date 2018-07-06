@@ -10,12 +10,12 @@ lang: sv
 ---
 
 
-{% for fish in site.fishes %}
+{% for fisk in site.fiskar %}
 
-<a href="{{ fish.url | prepend: site.baseurl }}">
-        {{ fish.title }}
+<a href="{{ fisk.url | prepend: site.baseurl }}">
+        {{ fisk.title }}
 </a>
 
-<p class="post-excerpt">{{ fish.description | truncate: 160 }}</p>
+<p class="post-excerpt">{{ fisk.description | truncate: 160 }}</p>
 
 {% endfor %}      
