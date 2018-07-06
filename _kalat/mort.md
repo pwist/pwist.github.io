@@ -2,7 +2,7 @@
 title: Särki
 layout: page
 description: Pieni kala
-url: /fiskar/sarki
+url: /kalat/sarki
 ---
 
 # Särki
