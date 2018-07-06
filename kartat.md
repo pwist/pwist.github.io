@@ -5,7 +5,7 @@ layout: page
 crawlertitle: Kalavedeiden kartat
 permalink: "/kartat/"
 summary: Kalavedeiden kartat
-active: kartat
+active: maps
 lang: fi
 ---
 
