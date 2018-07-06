@@ -41,3 +41,6 @@ collections:
   fiskar:
         output: true
         permalink: /fiskar/:path/
+  kalat:
+        output: true
+        permalink: /kalat/:path/
