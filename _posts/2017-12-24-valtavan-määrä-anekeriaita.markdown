@@ -7,7 +7,7 @@ date:   2017-12-23 23:09:47 +0700
 categories: posts
 tags: 'kalastus'
 active: 3
-lang: sv
+lang: fi
 author: Admin
 ---
 Iso määrrä ankeriaita loukussa meidän järvellä!

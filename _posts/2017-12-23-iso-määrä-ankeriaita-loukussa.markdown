@@ -7,7 +7,7 @@ date:   2017-12-23 23:09:47 +0700
 categories: posts
 tags: 'kalastus'
 active: 2
-lang: sv
+lang: fi
 author: Admin
 ---
 Onpa kalaa järvellä, voi että!
