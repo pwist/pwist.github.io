@@ -1,17 +1,17 @@
 ---
-title: Fångster
+title: Saalit
 bg: owl.jpg
 layout: page
-crawlertitle: Fångster
-permalink: "/fangster/"
-summary: Fiskfångster
+crawlertitle: Saalit
+permalink: "/saalit/"
+summary: Saalit
 active: catch
-lang: sv
+lang: fi
 ---
 
-# Fiskfångster per år
+# Kalasaalit vuosittain
 
-| Område  |  |
+| Alue  |  |
 | ------------- | ------------- |
-| Larsmo  | [Ladda ner](https://www.google.com)  |
-| Öja  | [Ladda ner](https://www.google.com %})  |
+| Luoto  | [Ladata](https://www.google.com)  |
+| Öja  | [Ladata](https://www.google.com %})  |
