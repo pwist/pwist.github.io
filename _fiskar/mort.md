@@ -1,7 +1,7 @@
 ---
 title: Mort
 layout: page
-description: En liten artfisk
+description: En liten fiskart
 url: /fiskar/mort
 ---
 
