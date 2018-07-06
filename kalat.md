@@ -1,21 +1,21 @@
 ---
-title: Fiskarter
+title: Kalalajit
 bg: owl.jpg
 layout: page
 crawlertitle: Why and how this blog was created
-permalink: "/fiskar/"
-summary: Olika fiskarter
-active: fishes
-lang: sv
+permalink: "/kalat/"
+summary: Eri kalalajit
+active: kalat
+lang: fi
 ---
 
 
-{% for fisk in site.fiskar %}
+{% for kala in site.kalat %}
 
-<a href="{{ fisk.url | prepend: site.baseurl }}">
-        {{ fisk.title }}
+<a href="{{ kala.url | prepend: site.baseurl }}">
+        {{ kala.title }}
 </a>
 
-<p class="post-excerpt">{{ fisk.description | truncate: 160 }}</p>
+<p class="post-excerpt">{{ kala.description | truncate: 160 }}</p>
 
 {% endfor %}      
