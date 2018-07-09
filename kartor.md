@@ -13,12 +13,12 @@ lang: sv
 
 | Område  |  |
 | ------------- | ------------- |
-| Larsmo  | [Ladda ner]({{ site.content_url }}{% link pdf/kartor/larsmo.pdf %})  |
-| Öja  | [Ladda ner]({{ site.content_url }}{% link pdf/kartor/oja.pdf %})  |
-| Eugmo  | [Ladda ner]({{ site.content_url }}{% link pdf/kartor/eugmo.pdf %})  |
-| Kronoby  | [Ladda ner]({{ site.content_url }}{% link pdf/kartor/kronoby.pdf %})  |
-| Lepplax-Norrby  | [Ladda ner]({{ site.content_url }}{% link pdf/kartor/lepplax-norrby.pdf %})  |
-| Pirilö  | [Ladda ner]({{ site.content_url }}{% link pdf/kartor/pirilo.pdf %})  |
+| Larsmo  | [Ladda ner]({{ site.content_url }}pdf/kartor/larsmo.pdf)  |
+| Öja  | [Ladda ner]({{ site.content_url }}pdf/kartor/oja.pdf)  |
+| Eugmo  | [Ladda ner]({{ site.content_url }}pdf/kartor/eugmo.pdf)  |
+| Kronoby  | [Ladda ner]({{ site.content_url }}pdf/kartor/kronoby.pdf)  |
+| Lepplax-Norrby  | [Ladda ner]({{ site.content_url }}pdf/kartor/lepplax-norrby.pdf)  |
+| Pirilö  | [Ladda ner]({{ site.content_url }}pdf/kartor/pirilo.pdf)  |
 
 # Till karttjänsten
 [Länk till sidan](http://www.maanmittauslaitos.fi/asioi-verkossa/karttapaikka)
