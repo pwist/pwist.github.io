@@ -21,4 +21,4 @@ lang: sv
 | Pirilö  | [Ladda ner]({{ site.content_url }}{% link pdf/kartor/pirilo.pdf %})  |
 
 # Till karttjänsten
-[Länk till sidan](http://www.maanmittauslaitos.fi/asioi-verkossa/karttapaikka)
+[Länk till karttjänsten](http://www.maanmittauslaitos.fi/asioi-verkossa/karttapaikka)
