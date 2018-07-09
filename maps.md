@@ -13,8 +13,12 @@ lang: en
 
 | Area  |  |
 | ------------- | ------------- |
-| Larsmo  | [Download]({{ site.baseurl }}{% link /assets/pdf/larsmo.pdf %})  |
-| Öja  | [Download]({{ site.baseurl }}{% link /assets/pdf/oja.pdf %})  |
+| Luoto  | [Download]({{ site.content_url }}{% link pdf/kartor/larsmo.pdf %})  |
+| Öja  | [Download]({{ site.content_url }}{% link pdf/kartor/oja.pdf %})  |
+| Eugmo  | [Download]({{ site.content_url }}{% link pdf/kartor/eugmo.pdf %})  |
+| Kruunupyy  | [Download]({{ site.content_url }}{% link pdf/kartor/kronoby.pdf %})  |
+| Lepplax-Norrby  | [Download]({{ site.content_url }}{% link pdf/kartor/lepplax-norrby.pdf %})  |
+| Pirilö  | [Download]({{ site.content_url }}{% link pdf/kartor/pirilo.pdf %})  |
 
 # To the map service
 [Link to service](http://www.maanmittauslaitos.fi/asioi-verkossa/karttapaikka)
