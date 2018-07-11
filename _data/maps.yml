@@ -1,0 +1,35 @@
+- area: larsmo
+  path: pdf/kartor/larsmo.pdf
+  name_sv: Larsmo
+  name_en: Luoto
+  name_fi: Luoto
+
+- area: oja
+  path: pdf/kartor/oja.pdf
+  name_sv: Öja
+  name_en: Öja
+  name_fi: Öja
+
+- area: eugmo
+  path: pdf/kartor/eugmo.pdf
+  name_sv: Eugmo
+  name_en: Eugmo
+  name_fi: Eugmo
+
+- area: kronoby
+  path: pdf/kartor/lepplax-norrby.pdf
+  name_sv: Kronoby
+  name_en: Krunupyy
+  name_fi: Krunupyy
+
+- area: lepplax
+  path: pdf/kartor/lepplax-norrby.pdf
+  name_sv: Lepplax-Norrby
+  name_en: Lepplax-Norrby
+  name_fi: Lepplax-Norrby
+
+- area: pirilo
+  path: pdf/kartor/pirilo.pdf
+  name_sv: Pirilö
+  name_en: Pirilö
+  name_fi: Pirilö

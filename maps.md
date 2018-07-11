@@ -11,14 +11,23 @@ lang: en
 
 # Maps of the Fishery
 
-| Area  |  |
-| ------------- | ------------- |
-| Luoto  | [Download]({{ site.content_url }}pdf/kartor/larsmo.pdf)  |
-| Öja  | [Download]({{ site.content_url }}pdf/kartor/oja.pdf)  |
-| Eugmo  | [Download]({{ site.content_url }}pdf/kartor/eugmo.pdf)  |
-| Kruunupyy  | [Download]({{ site.content_url }}pdf/kartor/kronoby.pdf)  |
-| Lepplax-Norrby  | [Download]({{ site.content_url }}pdf/kartor/lepplax-norrby.pdf)  |
-| Pirilö  | [Download]({{ site.content_url }}pdf/kartor/pirilo.pdf)  |
 
+<table class="responsive-table">
+    <thead>
+      <tr>
+        <th scope="col">Area</th>
+        <th scope="col">Map</th>
+      </tr>
+    </thead>
+
+    <tbody>
+     {% for area in site.data.maps  %}  
+     <tr>
+        <td scope="row">{{ area.name_en }}</td>
+        <td scope="row"><a href="{{ site.content_url }}{{ area.path }}">Download</a></td>
+     </tr>     
+     {% endfor %}
+    </tbody>
+</table>
 # To the map service
 [Link to service](http://www.maanmittauslaitos.fi/asioi-verkossa/karttapaikka)
