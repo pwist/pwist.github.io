@@ -3,8 +3,18 @@
   <input type="checkbox" id="menu-checkbox" />
 
   <nav class="center-wrapper nav-main">
+    {% if page.lang == 'sv' %}
+      <a class="blog-logo" href="{{ site.baseurl }}/index_sv/">{{ site.title_sv }}</a>
+    {% endif %}
 
-    <a class="blog-logo" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    {% if page.lang == 'fi' %}
+      <a class="blog-logo" href="{{ site.baseurl }}/index_fi/">{{ site.title_fi }}</a>
+    {% endif %}
+
+    {% if page.lang == 'en' %}
+      <a class="blog-logo" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    {% endif %}
+    
     {% assign pages=site.pages | where:"lang", page.lang %}
 
     {% for my_page in pages %}
