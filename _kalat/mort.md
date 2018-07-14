@@ -8,7 +8,7 @@ url: /kalat/sarki
 # Särki
 
 ## Väri
-Sininen
+Harmaa
 
 ## Ruoka
-Syö katkarapuja
+Syö pohjaeläimiä
