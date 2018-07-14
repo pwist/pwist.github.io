@@ -8,7 +8,7 @@ url: /fiskar/mort
 # Mört
 
 ## Färg
-Blå
+Grå
 
 ## Mat
-Äter räkor
+Äter bottendjur
