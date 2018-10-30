@@ -11,7 +11,20 @@ lang: fi
 
 # Kalasaalit vuosittain
 
-| Alue  |  |
-| ------------- | ------------- |
-| Luoto  | [Ladata](https://www.google.com)  |
-| Öja  | [Ladata](https://www.google.com)  |
+<table class="responsive-table">
+    <thead>
+      <tr>
+        <th scope="col">Vuosi</th>
+        <th scope="col">Linki</th>
+      </tr>
+    </thead>
+
+    <tbody>
+     {% for year in site.data.fisheries_production  %}  
+     <tr>
+        <td scope="row">{{ year.name_fi }}</td>
+        <td scope="row"><a href="{{ site.content_url }}{{ year.path }}">Avaa</a></td>
+     </tr>     
+     {% endfor %}
+    </tbody>
+</table>

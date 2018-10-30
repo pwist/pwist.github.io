@@ -11,7 +11,20 @@ lang: sv
 
 # Fiskfångster per år
 
-| Område  |  |
-| ------------- | ------------- |
-| Larsmo  | [Ladda ner](https://www.google.com)  |
-| Öja  | [Ladda ner](https://www.google.com %})  |
+<table class="responsive-table">
+    <thead>
+      <tr>
+        <th scope="col">År</th>
+        <th scope="col">Länk</th>
+      </tr>
+    </thead>
+
+    <tbody>
+     {% for year in site.data.fisheries_production  %}  
+     <tr>
+        <td scope="row">{{ year.name_sv }}</td>
+        <td scope="row"><a href="{{ site.content_url }}{{ year.path }}">Öppna</a></td>
+     </tr>     
+     {% endfor %}
+    </tbody>
+</table>
