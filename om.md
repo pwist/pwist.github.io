@@ -9,7 +9,7 @@ active: about
 lang: sv
 ---
 
-## ÖSTERBOTTENS LANDSKAPSSJÖ
+## ÖSTERBOTTENS SJÖ
 
 #### LARSMO-ÖJASJÖN. Areal: 85 km 2 Medeldjup: 2,3 m (max djup: 9 m i Larsmosjön; 10 m i Öjasjön) Strandlinjen: 403 km
 
