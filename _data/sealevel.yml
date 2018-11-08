@@ -1,0 +1,27 @@
+- area: larsmo
+  year: 2015
+  path: pdf/Larsmosjons_niva_2009_dec2014.pdf
+  name_sv: Larsmosjöns nivåer (till maj 2015)
+  name_en: Larsmo lake levels (up until May 2015)
+  name_fi: Luodonjärven tasot (toukokuun vuoden 2015 menneessä)
+
+- area: oja
+  year: 2015
+  path: pdf/ojasjonfron2009.pdf
+  name_sv: Öjasjöns nivåer (till maj 2015)
+  name_en: Öja lake levels (up until May 2015)
+  name_fi: Öjajärven tasot (vuoden 2015 menneessä)
+
+- area: larsmo
+  year: 2017
+  path: pdf/juni%202015%20-%20september%202017.pdf
+  name_sv: Larsmosjöns nivåer (till oktokber 2017)
+  name_en: Larsmo lake levels (up until October 2017)
+  name_fi: Luodonjärven tasot (lokakuun vuoden 2017 menneessä)
+
+- area: oja
+  year: 2017
+  path: pdf/Ojasjo%20franjuni%202015.pdf
+  name_sv: Öjasjöns nivåer (till februari 2017)
+  name_en: Öja lake levels (up until Febuary 2017)
+  name_fi: Öjajärven tasot (helmikuun vuoden 2017 menneessä)

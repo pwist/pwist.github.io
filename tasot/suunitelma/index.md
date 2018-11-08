@@ -1,21 +1,21 @@
 ---
-title: Handlingsplan
+title: Suunitelma
 bg: owl.jpg
 layout: page
-crawlertitle: Handlingsplan
-permalink: "/nivaer/handlingsplan"
-summary: Handlingsplan
+crawlertitle: Suunitelma
+permalink: "/tasot/suunitelma"
+summary: Suunitelma
 active: planofaction
 exclude: true
-lang: sv
+lang: fi
 ---
 
-# Handlingsplan
+# Suunitelma
 <table class="responsive-table">
     <thead>
       <tr>
-        <th scope="col">År</th>
-        <th scope="col">Titel</th>
+        <th scope="col">Vuosi</th>
+        <th scope="col">Nimi</th>
         <th scope="col"></th>
       </tr>
     </thead>
@@ -24,8 +24,8 @@ lang: sv
      {% for year in site.data.planofaction  %}
      <tr>
         <td scope="row">{{ year.year }}</td>
-        <td scope="row">{{ year.name_sv }}</td>
-        <td scope="row"><a href="{{ site.content_url }}{{ year.path }}">Öppna</a></td>
+        <td scope="row">{{ year.name_fi }}</td>
+        <td scope="row"><a href="{{ site.content_url }}{{ year.path }}">Avata</a></td>
      </tr>
      {% endfor %}
     </tbody>

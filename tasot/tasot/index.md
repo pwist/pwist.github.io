@@ -1,23 +1,24 @@
 ---
-title: Sea level
+title: Järven tasot
 bg: owl.jpg
 layout: page
-crawlertitle: Sjöns nivåer
-permalink: "/levels/levels"
-summary: Sjöns nivåer
+crawlertitle: Järven tasot
+permalink: "/tasot/tasot"
+summary: Järven tasot
 active: levels
 exclude: true
-lang: en
+lang: fi
 ---
 
-# Sea level
+# Järven tasot
 
 <table class="responsive-table">
     <thead>
       <tr>
-        <th scope="col">Year</th>
-        <th scope="col">Area</th>
+        <th scope="col">Vuosi</th>
+        <th scope="col">Alue</th>
         <th scope="col"></th>
+
       </tr>
     </thead>
 
@@ -25,8 +26,8 @@ lang: en
      {% for area in site.data.sealevel  %}
      <tr>
         <td scope="row">{{ area.year }}</td>
-        <td scope="row">{{ area.name_en }}</td>
-        <td scope="row"><a href="{{ site.content_url }}{{ area.path }}">Open</a></td>
+        <td scope="row">{{ area.name_fi }}</td>
+        <td scope="row"><a href="{{ site.content_url }}{{ area.path }}">Avata</a></td>
      </tr>
      {% endfor %}
     </tbody>
