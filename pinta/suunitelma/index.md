@@ -3,7 +3,7 @@ title: Suunitelma
 bg: owl.jpg
 layout: page
 crawlertitle: Suunitelma
-permalink: "/tasot/suunitelma"
+permalink: "/pinta/suunitelma"
 summary: Suunitelma
 active: planofaction
 exclude: true
