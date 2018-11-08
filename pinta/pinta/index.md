@@ -1,16 +1,16 @@
 ---
-title: Järven tasot
+title: Järven pinta
 bg: owl.jpg
 layout: page
-crawlertitle: Järven tasot
-permalink: "/tasot/tasot"
-summary: Järven tasot
+crawlertitle: Järven pinta
+permalink: "/pinta/pinta"
+summary: Järven pinta
 active: levels
 exclude: true
 lang: fi
 ---
 
-# Järven tasot
+# Järven pinta
 
 <table class="responsive-table">
     <thead>
