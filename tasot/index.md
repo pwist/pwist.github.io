@@ -1,13 +1,13 @@
 ---
-title: Järven tasot
+title: Järven pinta
 bg: owl.jpg
 layout: page
-crawlertitle: Luodon ja Öjan järven tasot
-permalink: "/tasot/"
-summary: Luodon ja Öjan järven tasot
+crawlertitle: Luodon-Öjanjärven pinta
+permalink: "/pinta/"
+summary: Luodon-Öjanjärven pinta
 active: levelsindex
 lang: fi
 ---
 
-[Järven tasot](tasot)
+[Järven pinta](pinta)
 [Suunitelma](suunitelma)
