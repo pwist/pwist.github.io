@@ -19,3 +19,6 @@ Larsmo-Öjasjön är belägen vid Bottenvikens kust, mellan städerna Karleby oc
 
 Larsmo- och Öjasjön står i förbindelse med varandra via Kronoby å samt via en ca 400 m lång kanal, som grävdes tvärs över Gåsören i samband med invallningen av Öjasjön. Vattnet från Larsmo-Öjasjön rinner ut i havet genom dammluckor vid Hästgrundet och Gertruds, samt via de tre fisklederna, Storströmmen, Gertruds och Bågast. Till Larsmo-Öjasjön rinner vatten från Kronoby-, Esse-, Purmo- och Kovijoki åar.
 
+Via reglering hålls sjöns nivå på en nivå som ligger på 10–20 cm över havsvattennivån (N60)  
+
+Sjön utnämndes till Österbottens Landskapssjö år 2011
