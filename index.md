@@ -1,14 +1,12 @@
 ---
-title: Larsmo-Öjasjön
-bg: owl.jpg1
-layout: page
-crawlertitle: Larsmo-Öjasjön
-permalink: "/om/"
-summary: Larsmo-Öjasjön
-active: about
+bg: "avtappning.jpg"
+layout: default
+crawlertitle: "Larsmo-Öjasjön"
+title: "Larsmo-Öjasjön"
+summary: "Larsmo-Öjasjön"
 lang: sv
+active: index
 ---
-
 # LARSMO-ÖJASJÖN. Areal: 85 km 2 Medeldjup: 2,3 m (max djup: 9 m i Larsmosjön; 10 m i Öjasjön) Strandlinjen: 403 km
 
 #### Fiskarter: Gädda, abborre, lake, gös, siklöja, braxen, mört, id, sik, nors, löja och ål
@@ -19,3 +17,15 @@ Larsmosjön och Öjasjön står i förbindelse med varandra via Kronoby å samt 
 
 Via reglering hålls sjöns nivå på en nivå som ligger på 10–20 cm över havsvattennivån (N60)  
 Sjön utnämndes till Österbottens Landskapssjö år 2011
+
+
+## Nyheter
+{% assign myPosts=site.posts | where:"lang", page.lang %}
+{% for post in myPosts limit: 5 %}
+  <article class="index-page">
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    {{ post.excerpt }}
+  </article>
+{% endfor %}
+ 
+ 

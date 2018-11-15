@@ -1,15 +1,15 @@
 ---
-title: Kartor
+title: Delägarlagens kartor
 bg: owl.jpg
 layout: page
-crawlertitle: Fiskelagens kartor
+crawlertitle: Delägarlagens kartor
 permalink: "/kartor/"
-summary: Fiskelagens kartor
+summary: Delägarlagens kartor
 active: maps
 lang: sv
 ---
 
-# Fiskelagens kartor
+# Delägarlagens kartor
 
 <table class="responsive-table">
     <thead>
@@ -28,6 +28,3 @@ lang: sv
      {% endfor %}
     </tbody>
 </table>
-
-# Till karttjänsten
-[Länk till karttjänsten](http://www.maanmittauslaitos.fi/asioi-verkossa/karttapaikka)

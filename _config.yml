@@ -1,9 +1,9 @@
-title: esselake
-title_sv: esse sjön
-title_fi: ähtävän järvi
-email: your-email@domain.com
-organization: Gammelmark fiskeområde
-contact_person: Jane Doe
+title: Larsmo-öjasjön
+title_sv: Larsmo-öjasjön
+title_fi: Luodon-Öjanjärvi
+email: birthe(at)norrasvenska.fi
+organization: Norra svenska fiskeområde 2018
+contact_person: Birthe Wistbacka
 phone: 123-5678
 description: >
   Write an awesome description for your new site here. You can edit this line in
@@ -13,8 +13,8 @@ baseurl: ''
 content_url: 'http://larsmosjon.jnn.fi/'
 url: 'https://pwist.github.io/'
 index:
-  sv: index_sv.html
-  fi: index_fi.html
+  sv: index.md
+  fi: index_fi.md
 github_username: pwist
 disqus_username: null
 markdown: kramdown
