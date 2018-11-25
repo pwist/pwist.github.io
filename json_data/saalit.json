@@ -1,0 +1,16 @@
+---
+---
+[{% for year in site.data.fangster %}
+  {
+    "year": "{{ year.year }}",
+    "Hauki": "{{ year.gadda }}",
+    "Ahven": "{{ year.abborre }}",
+    "Made": "{{ year.lake }}",
+    "Kuha": "{{ year.gos }}",
+    "Lahna": "{{ year.braxen }}",
+    "Särki": "{{ year.mort }}",
+    "Säynävä": "{{ year.id }}",
+    "Muut": "{{ year.ovrigt }}",
+    "total": "{{ year.total }}"
+  }{% if forloop.last == false %},{% endif %}
+{% endfor %}]

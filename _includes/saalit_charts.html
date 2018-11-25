@@ -1,0 +1,26 @@
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<style type="text/css">
+svg {
+  font: 10px sans-serif;
+  shape-rendering: crispEdges;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+}
+
+path.domain {
+  stroke: none;
+}
+
+.y .tick line {
+  stroke: #ddd;
+}
+</style>
+<div id="charts"></div>
+<script src="{{ site.baseurl }}/assets/js/scripts.js"></script>
+<script type="text/javascript">
+    addSvgAndLoadData("fi");
+</script>

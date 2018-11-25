@@ -1,0 +1,16 @@
+---
+---
+[{% for year in site.data.fangster %}
+  {
+    "year": "{{ year.year }}",
+    "Gädda": "{{ year.gadda }}",
+    "Abborre": "{{ year.abborre }}",
+    "Lake": "{{ year.lake }}",
+    "Gös": "{{ year.gos }}",
+    "Braxen": "{{ year.braxen }}",
+    "Mört": "{{ year.mort }}",
+    "Id": "{{ year.id }}",
+    "Övrigt": "{{ year.ovrigt }}",
+    "total": "{{ year.total }}"
+  }{% if forloop.last == false %},{% endif %}
+{% endfor %}]
