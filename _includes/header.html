@@ -4,7 +4,7 @@
 
   <nav class="center-wrapper nav-main">
     {% if page.lang == 'sv' %}
-      <a class="blog-logo" href="{{ site.baseurl }}">{{ site.title_sv }}</a>
+      <a class="blog-logo" href="{{ site.baseurl }}/">{{ site.title_sv }}</a>
     {% endif %}
 
     {% if page.lang == 'fi' %}
@@ -14,7 +14,7 @@
     {% if page.lang == 'en' %}
       <a class="blog-logo" href="{{ site.baseurl }}/">{{ site.title }}</a>
     {% endif %}
-    
+
     {% assign pages=site.pages | where:"lang", page.lang %}
 
     {% for my_page in pages %}
