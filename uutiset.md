@@ -1,12 +1,12 @@
 ---
 bg: "tag.jpg"
 layout: page
-permalink: /nyheter/
-title: "Nyheter"
-crawlertitle: "All articles"
+permalink: /uutiset/
+title: "Uutiset"
+crawlertitle: "Uutiset"
 summary: "Posts about jekyll"
 active: news
-lang: sv
+lang: fi
 ---
 
 {% for tag in site.tags %}
