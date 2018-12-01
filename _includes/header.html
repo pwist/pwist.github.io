@@ -25,7 +25,6 @@
 			{% endunless %}
     {% endfor %}
 
-    <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
     {% assign lang_posts=site.posts | where:"active", page.active | sort: 'lang' %}
     {% for post in lang_posts %} <a href="{{ post.url | prepend: site.baseurl }}" class="select-language">{{ post.lang }}</a> {% endfor %}
 
