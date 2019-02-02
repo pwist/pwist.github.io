@@ -10,7 +10,7 @@ exclude: true
 lang: sv
 ---
 
-# Histork
+# Fisket / Historik
 Innan Larsmo-Öjasjön uppdämdes på 1960-talet var området en del av havet. Det var ett stort mynningsområde med inner- eller mellanskärgårdskaraktär. Området var ett mycket viktigt lekområde för havets bestånd av vår- och höstlekande fiskar.
 
 Det fanns över1 000 aktiva husbehovsfiskare i området. Yrkes- och binäringfisket var intensivt under höst och vår.

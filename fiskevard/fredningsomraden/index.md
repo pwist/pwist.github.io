@@ -10,6 +10,6 @@ exclude: true
 lang: sv
 ---
 
-# Fredningsområden
+# Fiskevård / Fredningsområden
 
 ...

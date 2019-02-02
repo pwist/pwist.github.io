@@ -10,4 +10,4 @@ exclude: true
 lang: fi
 ---
 
-# Kalastuksen historia
+# Kalastus / Kalastuksen historia

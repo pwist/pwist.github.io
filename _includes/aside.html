@@ -24,7 +24,20 @@
          {% endif %}
         {% endfor %}
 
-      </div>
+      {% assign num_levels = top_level_permalink | split: "/" | size %}
+      {% if num_levels > 2 %}
+        {% assign levels = top_level_permalink | split: "/" %}
+        {% assign parent_level_permalink = "/" | append: levels[1] | append: "/" %}
+        {% assign parent_level_page = site.pages | where: "permalink",parent_level_permalink  %}
+        {% for sub_page in site.pages %}
+         {% if sub_page.permalink != top_level_permalink and sub_page.permalink contains parent_level_permalink %}
+          <div><a href="{{ site.url }}/{{ sub_page.permalink }} ">{{ sub_page.title }}</a></div>
+         {% endif %}
+        {% endfor %}
+
+      {% endif %}
+
+       </div>
 
 
       <p>

@@ -10,7 +10,7 @@ exclude: true
 lang: sv
 ---
 
-# Beslut
+# Fiskevård / Beslut
 
 Norra svenska fiskeområde har tagit beslut om att minsta maskvidd (knutavstånd) vid gösfiske med
 nät är 55 mm, samt att gösen är fredad i lektid (15.5 – 15.6)

@@ -10,6 +10,6 @@ exclude: true
 lang: sv
 ---
 
-# Kontrollprogram
+# Kontroller och program /Kontrollprogram
 
 ...

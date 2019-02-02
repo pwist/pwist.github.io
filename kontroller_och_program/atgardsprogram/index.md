@@ -10,6 +10,6 @@ exclude: true
 lang: sv
 ---
 
-# Åtgärdsprogram
+# Kontroller och program / Åtgärdsprogram
 
 ...

@@ -10,6 +10,6 @@ exclude: true
 lang: sv
 ---
 
-# Rapporter
+# Kontroller och program / Rapporter
 
 ...

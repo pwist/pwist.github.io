@@ -10,5 +10,5 @@ exclude: true
 lang: fi
 ---
 
-# Rauhoitusalueet
+# Kalaveden hoito / Rauhoitusalueet
 ...
